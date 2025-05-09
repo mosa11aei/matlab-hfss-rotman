@@ -1,0 +1,28 @@
+# HFSS project binary and simulation output files
+RL.aedt
+RL.hfss
+*.aedtresults # Simulation results
+*.aedtz       # Compressed archive (can be huge)
+*.lock        # Lock files
+*.emtemp      # Temporary HFSS EMPro files
+*.dsdb        # Dataset backup files
+
+# Hidden/system files from HFSS
+*.log
+*.tmp
+*.bak
+*.err
+*.sav
+*.dmp
+
+# Windows/macOS system files
+Thumbs.db
+.DS_Store
+
+# files from MATLAB code
+*.tab
+
+# Ignore backup or recovery directories
+_recovery
+backup_*
+__pycache__/
